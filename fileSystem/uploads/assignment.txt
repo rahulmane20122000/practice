@@ -1,0 +1,5 @@
+req.headers
+pass role key from headers admin user super admin
+write a global middleware which checks role is present or not if not response will be unauthorised (use Global middleware)
+create 3 routes /admin /user /superadmin
+if the role is admin he should not be able to acess superadmin and vice versa and should be local middleware forbidden(use local middleware)
